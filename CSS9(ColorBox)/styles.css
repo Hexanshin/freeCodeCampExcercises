@@ -1,0 +1,36 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.color-box {
+  width: 100px;
+  height:100px;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius:20px;
+}
+
+.color1{
+  background-color:#f12345
+}
+
+.color2{
+  background-color: rgb(24,65,7)
+}
+
+.color3{
+  background-color:pink;
+}
+
+.color4{
+  background-color: hsl(24,50%,10%)
+}
+
+.color5{
+  background-color: black;
+}
+
+h1 {
+  text-align:center;
+  font-family: helvetica;
+}
