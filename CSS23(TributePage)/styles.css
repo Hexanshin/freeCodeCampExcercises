@@ -4,3 +4,50 @@ img {
   height:auto;
   margin:auto;
 }
+
+h1 , #semititle{
+  text-align:center;
+}
+
+#imgndesc {
+  background-color:white;
+  padding:15px;
+  border-radius:15px;
+  box-shadow:2px 2px 2px
+}
+
+#image {
+  border-radius:15px;
+  border-bottom: 1px solid black;
+}
+
+#img-caption{
+  font-size:1.5rem;
+  text-align:center;
+  padding-top:20px;
+}
+
+body {
+  background-color:#ebebeb;
+}
+
+*{
+  font-family:Georgia, Times New Roman;
+}
+
+#tribute-info{
+  text-align:center;
+  font-size:1.1rem;
+  font-style:italic;
+}
+
+#semititle{
+  padding-top:0;
+  margin-top:0;
+  padding-bottom:20px;
+}
+
+#tribute-text{
+  text-align:center;
+  font-size:1.2rem;
+}
