@@ -1,0 +1,38 @@
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  text-align:center;
+  margin-top:20px;
+}
+
+#main-doc {
+  margin-left: 220px;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
+
+.nav-link{
+  display:block;
+  margin:20px;
+  border-bottom:2px solid black;
+  padding-bottom:5px;
+  font-size:1.1em;
+}
+
+.nav-header {
+  font-size:1.5em;
+  font-weight:bold;
+}
